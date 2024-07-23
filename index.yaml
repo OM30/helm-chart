@@ -3,7 +3,7 @@ entries:
   basic-app:
   - apiVersion: v2
     appVersion: 0.0.10
-    created: "2024-07-23T17:43:04.677289932-03:00"
+    created: "2024-07-23T17:45:58.21794293-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: 5ccd2f6082561ceafc5f195704f930746a2d608eb01d9ea7ad8a3364009fe3d1
     name: basic-app
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://om30.github.io/helm-chart/basic-app-0.0.10.tgz
     version: 0.0.10
-generated: "2024-07-23T17:43:04.676871393-03:00"
+generated: "2024-07-23T17:45:58.217116792-03:00"
