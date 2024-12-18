@@ -9,7 +9,7 @@ metadata:
 spec:
   endpoints:
   - interval: {{ .Values.serviceMonitor.interval | default "30s" }}
-    targetPort: {{ .Values.serviceMonitor.targetPort | default "8080" }}
+    targetPort: {{ .Values.serviceMonitor.targetPort | default "3000" }}
     path: {{ .Values.serviceMonitor.path | default "/metrics"  }}
   namespaceSelector:
     matchNames:
