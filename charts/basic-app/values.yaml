@@ -111,6 +111,12 @@ service:
   port: 80
   annotations: {}
 
+serviceMonitor:
+  enabled: true
+  interval: 30s
+  targetPort: 80
+  path: /metrics
+
 ###################
 ## Configuration ##
 ###################

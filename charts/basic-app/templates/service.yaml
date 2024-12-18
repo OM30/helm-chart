@@ -10,6 +10,8 @@ metadata:
     {{- toYaml . | nindent 4 }}
   {{- end }}    
 spec:
+  selector:
+    app: {{ include "basic-deployment.name" . }}
   type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
