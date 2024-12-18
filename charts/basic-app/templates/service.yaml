@@ -18,6 +18,9 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
+    - port: 3000
+      protocol: TCP
+      name: http-metrics  
   selector:
     {{- include "basic-deployment.selectorLabels" . | nindent 4 }}
 {{- end }}
