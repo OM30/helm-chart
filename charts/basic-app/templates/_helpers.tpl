@@ -50,6 +50,7 @@ Selector labels
 app: {{ include "basic-deployment.name" . }}
 app.kubernetes.io/name: {{ include "basic-deployment.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
+app.kubernetes.io/name: "instrumentation-newrelic"
 {{- end }}
 
 {{/*
