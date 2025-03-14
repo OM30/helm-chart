@@ -23,6 +23,15 @@ command: []
 
 args: []
 
+######################
+## External Secrets ##
+######################
+
+externalSecrets:
+  enabled: false
+  refreshInterval: "1m"
+  secretStoreRef: "secretstore-gcp"    
+
 env: []
 
 envFrom: {}
