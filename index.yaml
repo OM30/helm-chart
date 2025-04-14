@@ -3,7 +3,17 @@ entries:
   basic-app:
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2025-04-13T22:43:18.909029339-03:00"
+    created: "2025-04-13T23:08:28.360421342-03:00"
+    description: A Helm chart for simple Kubernetes applications
+    digest: a8e07cf70a01ba243f32b4908e315e850154ce8de1eaab20846f3c30ca51e8e8
+    name: basic-app
+    type: application
+    urls:
+    - https://om30.github.io/helm-chart/basic-app-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 0.0.12
+    created: "2025-04-13T23:08:28.359802374-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: c059cf5c862909d2b3690d0d1cde2762ff532ef6aeae739ed2ab426279abbfd3
     name: basic-app
@@ -13,7 +23,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2025-04-13T22:43:18.90847615-03:00"
+    created: "2025-04-13T23:08:28.359274532-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: 7bb6adf96cbc883943306d5f299172f646f92b51fcef5661265204bc32305304
     name: basic-app
@@ -23,7 +33,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2025-04-13T22:43:18.907914888-03:00"
+    created: "2025-04-13T23:08:28.358723034-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: 9c84258cdf2de9fe3fcfdc2a6918fe60660e2fc9fb14ad3e274df1a043dbaa58
     name: basic-app
@@ -33,7 +43,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2025-04-13T22:43:18.907299143-03:00"
+    created: "2025-04-13T23:08:28.358150663-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: e1344b1b81368f87c8a42496be448b91c48d8831adf7b59232952376e2fa6882
     name: basic-app
@@ -43,7 +53,7 @@ entries:
     version: 0.0.20
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2025-04-13T22:43:18.906714176-03:00"
+    created: "2025-04-13T23:08:28.357641441-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: fc5de7cc0ceeb436855abda2402ae22f110bb40ab577e39a9e6cd2e16bd14419
     name: basic-app
@@ -53,7 +63,7 @@ entries:
     version: 0.0.19
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2025-04-13T22:43:18.90602544-03:00"
+    created: "2025-04-13T23:08:28.357036041-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: 8d3ce02f0a6b7a1f6f48dde2b50178d79b2b9dbfaaebb1c218c2a238b6ddb779
     name: basic-app
@@ -63,7 +73,7 @@ entries:
     version: 0.0.18
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2025-04-13T22:43:18.905406323-03:00"
+    created: "2025-04-13T23:08:28.356454228-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: 50728af8f070d3efa01fb9829524396df33b3d7e52473c2cb655e463d0c9220e
     name: basic-app
@@ -73,7 +83,7 @@ entries:
     version: 0.0.17
   - apiVersion: v2
     appVersion: 0.0.12
-    created: "2025-04-13T22:43:18.904900347-03:00"
+    created: "2025-04-13T23:08:28.355842744-03:00"
     description: A Helm chart for simple Kubernetes applications
     digest: c9d637a44d3ade03e46312056d6cf57debe843c7b895bc4fbeae3fcf3d7fc5de
     name: basic-app
@@ -81,4 +91,4 @@ entries:
     urls:
     - https://om30.github.io/helm-chart/basic-app-0.0.16.tgz
     version: 0.0.16
-generated: "2025-04-13T22:43:18.904164613-03:00"
+generated: "2025-04-13T23:08:28.355074001-03:00"

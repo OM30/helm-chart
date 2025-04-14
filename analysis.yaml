@@ -1,8 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AnalysisTemplate
 metadata:
-  name: release-name-success-rate
-  namespace:
+  name: ss-importacao-cnes-success-rate
+  namespace: ss-importacao-cnes
   annotations:
     argocd.argoproj.io/sync-wave: "-1"
 spec:
