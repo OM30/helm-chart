@@ -4,6 +4,8 @@ metadata:
   name: {{ include "basic-deployment.name" . }}
   labels:
     {{- include "basic-deployment.labels" . | nindent 4 }}
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"    
 spec:
   revisionHistoryLimit: 3
 {{- if not .Values.keda.enabled }}

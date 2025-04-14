@@ -3,6 +3,8 @@ kind: AnalysisTemplate
 metadata:
   name: {{ include "basic-deployment.name" . }}-success-rate
   namespace: {{ .Values.namespace }}
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"  
 spec:
   args:
   - name: service-name
