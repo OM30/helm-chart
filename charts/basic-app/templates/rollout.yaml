@@ -33,7 +33,7 @@ spec:
           value: {{ include "basic-deployment.name" . }}-canary-svc
       trafficRouting:
         nginx:
-          stableIngress: {{ include "basic-deployment.name" . }}-ingress-stable
+          stableIngress: {{ include "basic-deployment.name" . }}-stable
   {{- end }}
   {{- if .Values.strategy.blueGreen }}
     blueGreen:
