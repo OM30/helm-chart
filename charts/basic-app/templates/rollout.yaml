@@ -31,9 +31,7 @@ spec:
         args:
         - name: service-name
           value: {{ include "basic-deployment.name" . }}-canary-svc
-      trafficRouting:
-        nginx:
-          stableIngress: {{ include "basic-deployment.name" . }}-stable
+      trafficRouting: {}
   {{- end }}
   {{- if .Values.strategy.blueGreen }}
     blueGreen:
