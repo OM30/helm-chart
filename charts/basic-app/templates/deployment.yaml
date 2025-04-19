@@ -6,7 +6,7 @@ metadata:
     {{- include "basic-deployment.labels" . | nindent 4 }}
 spec:
   revisionHistoryLimit: 3
-{{- if not .Values.keda.enabled }}
+{{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
 {{- end }}
   selector:
